@@ -1,0 +1,100 @@
+/* Section Technical Specifications */
+.technical-specifications {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.technical-specifications h2 {
+    text-align: left;
+    line-height: 110%;
+    margin-bottom: 70px;
+}
+
+.technical-specifications.headset-page h2 {
+    text-align: center;
+}
+
+.technical-specifications p {
+    font-family: 'Nexa Bold';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 60px;
+}
+
+.technical-specifications .list {
+    margin-top: 100px;
+}
+
+.technical-specifications .list:first-child {
+    margin-bottom: 0;
+}
+
+.technical-specifications .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.technical-specifications .item:last-child {
+    margin-bottom: 0;
+}
+
+.technical-specifications .item div {
+    max-width: 520px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 156.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.technical-specifications .item .left {
+    align-items: flex-start;
+    opacity: 0.5;
+}
+/*endsection */
+
+@media (max-width: 480px) {
+    .technical-specifications {
+        margin-bottom: 150px;
+    }
+
+    .technical-specifications.headset-page h2 {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+
+    .technical-specifications p {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .technical-specifications .list {
+        margin-top: 60px;
+    }
+
+    .technical-specifications .item {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .technical-specifications .item div {
+        font-size: 14px;
+    }
+
+    .technical-specifications .item div.left {
+        border-bottom: none;
+        margin-bottom: 8px;
+        padding-bottom: 0;
+    }
+
+    .technical-specifications .item div.right {
+        border-color: rgba(255, 255, 255, .5);
+    }
+}

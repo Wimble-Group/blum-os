@@ -1,0 +1,665 @@
+/* Section Common */
+.text-block h2 {
+    margin-bottom: 30px;
+}
+
+.text-block p.title-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section.text-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+/*endsection */
+
+/* Section Banner */
+body {
+    background: #000000;
+}
+
+.banner {
+    height: 100vh;
+    background: url('../img/common/default-bg.svg') no-repeat 0 0;
+    background-size: cover;
+    background-position: top center; 
+}
+
+.banner .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/bloom/title-bg.png') no-repeat 0 0;
+    background-position: center center;
+    background-size: 1440px 810px;
+}
+
+.banner h1 {
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    margin-bottom: 42px;
+}
+/*endsection */
+
+/* Section Banner */
+.create-entirely {
+    margin-bottom: 120px;
+}
+
+.create-entirely .text-block {
+    max-width: 900px;
+}
+
+.create-entirely .text-block p {
+    max-width: 700px;
+    width: 100%;
+}
+/*endsection */
+
+/* Section Control */
+.control {
+    margin-bottom: 200px;
+}
+
+.control .container {
+    padding-top: 442px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control .bg-asset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1200px;
+    height: 583px;
+    background: url('../img/bloom/bg-key.jpg') no-repeat 0 0;
+    background-size: contain;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.control .text-block {
+    margin-bottom: 100px;
+}
+
+.control .text-block p {
+    max-width: 822px;
+}
+/*endsection */
+
+/* Section World */
+.world {
+    margin-bottom: 100px;
+}
+
+.world .text-block {
+    margin-bottom: 100px;
+}
+
+.world .text-block p {
+    max-width: 870px;
+}
+
+.world .cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.world .cards .item {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    background: #121317;
+    border-radius: 13px;
+}
+
+.world .cards .item .icon {
+    width: 124px;
+    height: 124px;
+    margin-right: 20px;
+}
+
+.world .cards .item .icon.icon-2D {
+    background: url('../img/bloom/icons/icon-2d.svg') no-repeat 0 0;
+    background-size: contain;
+}
+
+.world .cards .item .icon.icon-3D {
+    background: url('../img/bloom/icons/icon-3d.svg') no-repeat 0 0;
+    background-size: contain;
+}
+
+.world .cards .item .text {
+    width: calc(100% - 124px - 20px);
+}
+
+.world .cards .item p {
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.world .cards .item span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+/*endsection */
+
+/* Section Run Anything */
+.run-anything {
+    height: 572px;
+    background: url('../img/bloom/bg-run-anything.jpg') no-repeat 0 0;
+    background-size: 1968px 572px;
+    background-position: center top;
+    margin-bottom: 100px;
+}
+
+.run-anything .container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.run-anything .text {
+    max-width: 580px;
+    width: 100%;
+}
+
+.run-anything h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.run-anything p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+}
+/*endsection */
+
+/* Section Social Section */
+.apps-banner {
+    margin-bottom: 40px;
+}
+
+.apps-banner .container {
+    display: flex;
+    justify-content: center;
+}
+
+.apps-banner .text-block {
+    width: 100%;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/bloom/bg-apps.jpg') no-repeat 0 0;
+    background-size: contain;
+    border-radius: 24px;
+}
+
+.apps-banner .text-block h2 {
+    margin-bottom: 20px;
+}
+
+.apps-banner .text-block p {
+    max-width: 500px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.5%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+}
+/*endsection */
+
+/* Section Section Cards */
+.section-cards {
+    margin-bottom: 200px;
+}
+
+.section-cards .top, .section-cards .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-cards .top {
+    margin-bottom: 40px;
+}
+
+.section-cards .item {
+    width: 580px;
+    height: 326px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.section-cards .item.item-bg img {
+    transition: .3s;
+}
+
+.section-cards .item.item-bg:hover img {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.section-cards .item.item-grey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background: #121317;
+}
+
+.section-cards .item p {
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.section-cards .item span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.5%;
+    letter-spacing: 0.02em;
+}
+/*endsection */
+
+/* Section Bloom World */
+.bloom-world {
+    position: relative;
+    padding-bottom: 489px;
+}
+
+.bloom-world::before {
+    content: '';
+    width: 1440px;
+    height: 810px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -230px;
+    background: url('../img/bloom/bg-hand.jpg') no-repeat 0 0;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.bloom-world .text-block {
+    margin-bottom: 200px;
+}
+
+.bloom-world .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloom-world .item {
+    max-width: 580px;
+    width: 100%;
+    height: 326px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.bloom-world .item.item-bg img {
+    transition: .3s;
+}
+
+.bloom-world .item.item-bg:hover img {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.bloom-world .item.item-grey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background: #121317;
+}
+
+.bloom-world .item p {
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.bloom-world .item span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.5%;
+    letter-spacing: 0.02em;
+}
+
+.bloom-world .item.item-bg img {
+    width: 100%;
+    transition: .3s;
+}
+/*endsection */
+
+/* Section Technical Specifications */
+.technical-specifications {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.technical-specifications h2 {
+    text-align: left;
+    line-height: 110%;
+    margin-bottom: 70px;
+}
+
+.technical-specifications .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.technical-specifications .item:last-child {
+    margin-bottom: 0;
+}
+
+.technical-specifications .item div {
+    max-width: 520px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 156.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.technical-specifications .item .left {
+    opacity: 0.5;
+}
+/*endsection */
+
+@media (max-width: 480px) {
+    /* Section Common */
+    .text-block h2 {
+        margin-bottom: 20px;
+    }
+
+    .text-block p.title-desc {
+        font-size: 14px;
+    }
+    /*endsection */
+
+    /* Section Banner */
+    .banner {
+        height: auto;
+    }
+
+    .banner .container {
+        padding-top: 210px;
+        background-size: 720px 423px;
+        padding-bottom: 176px;
+    }
+
+    .banner h1 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 120%;
+    }
+    /*endsection */
+
+    /* Section Banner */
+    .create-entirely {
+        margin-bottom: 80px;
+    }
+    /*endsection */
+    
+    /* Section Control */
+    .control {
+        margin-bottom: 30px;
+    }
+
+    .control .container {
+        padding-top: 140px;
+    }
+
+    .control .bg-asset {
+        width: 370px;
+        height: 186px;
+    }
+
+    .control .text-block {
+        margin-bottom: 60px;
+    }
+    /*endsection */
+
+    /* Section World */
+    .world {
+        margin-bottom: 30px;
+    }
+
+    .world .text-block {
+        margin-bottom: 40px;
+    }
+
+    .world .cards {
+        flex-direction: column;
+    }
+
+    .world .cards .item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 24px 16px;
+    }
+
+    .world .cards .item:first-child {
+        margin-bottom: 20px;
+    }
+
+    .world .cards .item .icon {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .world .cards .item .text {
+        width: 100%;
+    }
+    /*endsection */
+
+    /* Section Run Anything */
+    .run-anything {
+        height: auto;
+        background: url('../img/bloom/bg-run-anything-mob-2x.jpg') no-repeat 0 0;
+        background-size: 480px 349px;
+        padding-top: 322px;
+        margin-bottom: 60px;
+    }
+
+    .run-anything h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .run-anything p {
+        font-size: 14px;
+        text-align: center;
+    }
+    /*endsection */
+
+    /* Section Social Section */
+    .apps-banner {
+        margin-bottom: 70px;
+    }
+
+    .apps-banner .text-block {
+        padding: 39px 24px;
+        height: auto;
+        background: url('../img/bloom/bg-apps-mob-2x.jpg') no-repeat 0 0;
+        background-size: cover;
+    }
+
+    .apps-banner .text-block h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .apps-banner .text-block p {
+        font-size: 12px;
+    }
+    /*endsection */
+
+    /* Section Section Cards */
+    .section-cards {
+        margin-bottom: 60px;
+    }
+
+    .section-cards .top {
+        flex-direction: column-reverse;
+    }
+
+    .section-cards .item {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-cards .item.item-bg {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-cards .item.item-bg {
+        margin-bottom: 20px;
+    }
+
+    .section-cards .item.item-bg img {
+        width: 100%;
+    }
+
+    .section-cards .item p {
+        font-size: 24px;
+    }
+
+    .section-cards .item span {
+        font-size: 13px;
+    }
+
+    .section-cards .bottom {
+        flex-direction: column;
+    }
+    /*endsection */
+
+    /* Section Bloom World */
+    .bloom-world {
+        padding-bottom: 189px;
+    }
+
+    .bloom-world::before {
+        left: calc((-480px + 100%) / 2);
+        bottom: -100px;
+        width: 480px;
+        height: 270px;
+        background: url('../img/bloom/bg-hand-mob-2x.jpg') no-repeat 0 0;
+        background-size: 480px 270px;
+    }
+
+    .bloom-world .text-block {
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+
+    .bloom-world h2 {
+        text-align: left;
+    }
+
+    .text-block p.title-desc {
+        text-align: left;
+    }
+
+    .bloom-world .list {
+        flex-direction: column-reverse;
+    }
+
+    .bloom-world .item {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .bloom-world  .item.item-bg {
+        margin-bottom: 20px;
+    }
+
+    .bloom-world .item.item-grey {
+        padding: 24px 16px;
+    }
+
+    .bloom-world .item p {
+        font-size: 24px;
+    }
+
+    .bloom-world .item span {
+        font-size: 13px;
+    }
+    /*endsection */
+
+    /* Section Technical Specifications */
+    .technical-specifications {
+        margin-bottom: 150px;
+    }
+
+    .technical-specifications .item {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .technical-specifications .item div {
+        font-size: 14px;
+    }
+
+    .technical-specifications .item div.left {
+        border-bottom: none;
+        margin-bottom: 8px;
+        padding-bottom: 0;
+    }
+
+    .technical-specifications .item div.right {
+        border-color: rgba(255, 255, 255, .5);
+    }
+     /*endsection */
+}
