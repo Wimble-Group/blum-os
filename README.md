@@ -1,4 +1,4 @@
-# Blum OS
+# Bloom OS
 
 #Deploy:
 To install the project, you need to clone the repository and start the server.
